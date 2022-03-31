@@ -3,7 +3,55 @@ img {
     height: auto;
 }
 
-h1 {
-    text-align:justify center;
+.t1 {
+    background-color: #fa5;
+    font-size: 36px;
+    font-family: Verdana, Garamond, sans-serif;
+    font-weight: bolder;
+    text-align: center;
 }
 
+h3.t1 {
+    background-color: #000;
+    color: #fff;
+    font-size: 26px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-weight: 800px;
+}
+
+div.desc {
+    color: red;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.content.ing {
+    font-weight: 500px;
+    text-align: center;
+}
+
+.content .meat {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#sauce {
+    background-color: grey;
+    color: #fa5;
+    font-weight: 600px;
+}
+
+.steps {
+    text-align: justify;
+    text-indent: 10px;
+}
+
+#home {
+    background-color: #fa5;
+    font-size: 24px;
+}
