@@ -1,8 +1,19 @@
-img {
+/*
+    using a type selector with a class selector to practice chaining in case I want
+    to apply a different style to other images in the future
+
+    Wanted all the images to have a more uniform size adjustment
+    This is a useful way to get that done with existing images and
+    any future images to be added
+*/
+img.main {
     width: 600px;
     height: auto;
 }
 
+/*
+    Wanted the titles to stand out a more
+*/
 .t1 {
     background-color: #fa5;
     font-size: 36px;
@@ -11,6 +22,10 @@ img {
     text-align: center;
 }
 
+/*
+    wanted the style to also point out the difference between the title of the page
+    and the heading of a subject.
+*/
 h3.t1 {
     background-color: #000;
     color: #fff;
@@ -19,6 +34,11 @@ h3.t1 {
     font-weight: 800px;
 }
 
+/*
+    Making the description of the image stand out from the rest of the text so it 
+    is easier to differentiate.
+*/
+
 div.desc {
     color: red;
     font-size: 16px;
@@ -26,19 +46,38 @@ div.desc {
     font-style: italic;
 }
 
+/*
+    makes all the text into a more legible size. There might be a way to make it
+    more adaptable but I will try it later if it does not come up in any css lessons.
+*/
+
 .content {
     font-size: 20px;
 }
+
+/*
+    Testing the use of chaining selectors
+*/
 
 .content.ing {
     font-weight: 500px;
     text-align: center;
 }
 
+/*
+    practicing descendant combinator
+    apply only to meat ingredients
+*/
+
 .content .meat {
     font-weight: bolder;
     font-style: italic;
 }
+
+/*
+    practicing the use of Id selectors
+    apply to sauces or other wet ingredients
+*/
 
 #sauce {
     background-color: grey;
@@ -46,10 +85,19 @@ div.desc {
     font-weight: 600px;
 }
 
+/*
+    added in to see the use of text indent and a different type of align
+*/
+
 .steps {
     text-align: justify;
     text-indent: 10px;
 }
+
+/*
+    done as an id to practice but mainly interested in the interaction of 
+    background color and font size with a button element.
+*/
 
 #home {
     background-color: #fa5;
